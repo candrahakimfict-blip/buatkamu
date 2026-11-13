@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+
+    <style>
+        body {
+            background: #ffe6f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px 15px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 350px;
+            margin: auto;
+            box-shadow: 0 5px 15px #e9a9c5;
+        }
+
+        h1 {
+            color: #ff4f91;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.7;
+        }
+
+        button {
+            background: #ff4f91;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #pesan {
+            display: none;
+            color: #ff4081;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Hai, acaa! ❤️</h1>
+
+    <p>
+        Aku punya sesuatu buat kamu.
+        Mungkin sederhana, tapi semoga
+        bisa bikin kamu tersenyum.
+    </p>
+
+    <button onclick="bukaPesan()">
+        Klik Aku
+    </button>
+
+    <div id="pesan">
+        hai aca gimna kabarnya kamu baik" aja kan kamu jngn sedih" ya kmu boleh ko semua cerita sama aku anggap aja kita masi sejalan and aku jujur aku masi sayang kamu. ❤️
+        <br><br>
+        Semangat acaa  !
+    </div>
+</div>
+
+<script>
+    function bukaPesan() {
+        document.getElementById("pesan").style.display = "block";
+    }
+</script>
+
+</body>
+</html>
